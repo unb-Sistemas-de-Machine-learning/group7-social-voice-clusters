@@ -1,0 +1,70 @@
+site_name: MACCI
+site_dir: public
+
+theme:
+  name: material
+  language: pt-BR
+  logo: assets/logos/logo_sem_fundo.png
+  favicon: 
+  icon:
+    repo: fontawesome/brands/github
+  
+  features:
+    - toc.integrate
+    - toc.follow
+    - content.code.annotate
+    - content.tabs.link
+    - header.autohide
+    - navigation.instant
+    - navigation.sections
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.footer
+    - navigation.top
+    - navigation.tracking
+
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      primary: white
+      accent: light blue
+      toggle:
+        icon: material/weather-night
+        name: Mudar para modo escuro
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: black
+      accent: light blue
+      toggle:
+        icon: material/weather-sunny
+        name: Mudar para modo claro
+
+
+  hide:
+    -
+
+  extra:
+    social:
+      - icon: fontawesome/brands/mastodon
+        link: https://fosstodon.org/@squidfunk
+
+  plugins:
+    - glightbox
+    - search:
+        lang: pt-BR
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
+
+extra_css:
+  - stylesheets/styles.css
+
+nav:
+  - Sobre: index.md
+  - Geral: teste.md
+
+          
+
