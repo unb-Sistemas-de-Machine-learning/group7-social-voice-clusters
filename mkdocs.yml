@@ -1,10 +1,10 @@
-site_name: MACCI
+site_name: Vozes em Rede
 site_dir: public
 
 theme:
   name: material
   language: pt-BR
-  logo: assets/logos/logo_sem_fundo.png
+  logo: assets/logos/logo_simbolo.png
   favicon: 
   icon:
     repo: fontawesome/brands/github
@@ -64,7 +64,24 @@ extra_css:
 
 nav:
   - Sobre: index.md
-  - Geral: teste.md
+  - Produto:
+    - Visão do Produto: produto/visao_do_produto.md
+    - Mapeamento de Dados: produto/mapeamento_de_dados.md
+    - Requisitos do Produto: produto/requisitos_do_produto.md
+  - Machine Learning:
+    - Requisitos de ML: ml/requisitos_de_ml.md
+    - ML Canvas: ml/ml_canvas.md
+  - Histórias de Usuário:
+    - Lista de Histórias: historias_de_usuario/us_list.md
+    - Aceitação e priorização: historias_de_usuario/criterios_de_aceitacao.md
+    - MVP e Cronograma: historias_de_usuario/mvp.md
+  - Engenharia de Dados:
+    - Coleta e Armazenamento: engenharia_de_dados/coleta_e_armazenamento.md
+    - Amostragem e Rotulação: engenharia_de_dados/amostragem_e_rotulacao.md
+    - Feature Engineering: engenharia_de_dados/feature_engineering.md
+    - Dados de Treinamento e Teste: engenharia_de_dados/dados_treinamento_teste.md
+
+# Para novas entregas, adicione novas seções abaixo seguindo o padrão acima.
 
           
 
