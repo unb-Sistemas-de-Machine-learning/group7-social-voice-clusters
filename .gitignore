@@ -1,0 +1,39 @@
+# Python virtual environments
+venv/
+env/
+.venv/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.mypy_cache/
+.pytest_cache/
+.cache/
+
+# Python packaging
+*.egg-info/
+*.egg
+dist/
+build/
+
+# Environment variables
+.env
+.env.*
+
+# IDE and editor folders
+.idea/
+.vscode/
+
+# Node.js
+node_modules/
+
+# MkDocs build output
+public/
+site/
+
+# OS generated files
+.DS_Store
+Thumbs.db
