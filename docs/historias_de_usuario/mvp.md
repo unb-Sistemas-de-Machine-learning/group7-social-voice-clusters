@@ -6,6 +6,7 @@ O MVP do projeto Vozes em Rede contempla a entrega das funcionalidades essenciai
 ## US contempladas no MVP
 
 **Must (Essenciais):**
+
 - US01: Coleta multicanal de manifestações
 - US02: Normalização e limpeza de textos
 - US03: Clusterização automática de temas
@@ -13,11 +14,13 @@ O MVP do projeto Vozes em Rede contempla a entrega das funcionalidades essenciai
 - US10: Interface intuitiva e fácil de usar
 
 **Should (Desejáveis):**
+
 - US04: Visualização do grau de pertencimento a múltiplos temas
 - US05: Análise de sentimento
 - US07: Geração de relatórios customizáveis
 
 **Could (Apenas se houver tempo):**
+
 - US08: Exportação de dados e relatórios
 - US09: Acesso multiplataforma
 
