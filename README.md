@@ -10,7 +10,7 @@
 
 ## Site
 
-[GitPage do Projeto]()
+[GitPage do Projeto](https://unb-sistemas-de-machine-learning.github.io/group7-social-voice-clusters/)
 
 ## Como rodar os documentos
 [Como rodar os documentos](./how-to-docs.md)
