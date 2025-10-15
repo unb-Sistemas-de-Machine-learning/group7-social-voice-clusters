@@ -11,52 +11,22 @@ data-page: "index-page"
   <img class="photo" src="assets/logos/logo_direita.png" alt="logo">
   <h3 style="text-align: center">
 
+
   <p style="text-align:justify;">
-  <b>Vozes em Rede é um projeto...
+  <b>Vozes em Rede</b> é uma solução inovadora que transforma manifestações públicas em conhecimento estruturado para apoiar gestores públicos na tomada de decisão baseada em evidências. Utilizando técnicas de machine learning para clusterização semântica, o sistema agrupa manifestações em temas recorrentes, identifica padrões e apresenta insights de forma visual e acessível.
   </p>
+
+  <h2 style="font-weight: bold; text-align: left; margin-top: 2em;">Objetivos do Projeto</h2>
+  <ul style="text-align: left;">
+    <li>Coletar manifestações públicas de múltiplas fontes de forma automatizada e periódica.</li>
+    <li>Normalizar, limpar e padronizar os textos coletados para garantir qualidade analítica.</li>
+    <li>Agrupar manifestações em clusters temáticos, facilitando a identificação de demandas sociais.</li>
+    <li>Proporcionar uma interface intuitiva, acessível e responsiva para gestores e analistas.</li>
+  </ul>
 
   <br>
   </h3>
 </div>
-
-<!-- <div>
-<h1 style="font-weight: bold; text-align: center"> Documentações e Código fonte </h1>
-<div class="pictures">
-
-<a href="https://gitlab.com/unb-esw/fga-pi2/semestre-2025-1/avalia-o-de-corros-o/docs/-/tree/main/docs/geral?ref_type=heads">
-  <div class="repo-border">
-	<img class="photoRepo" src="assets/icons/geral.png" alt="Geral">
-  </div>
-	<h4 class="legenda">Geral</h4>
-	<h6 class=legenda>Relatórios gerais</h6>
-</a>
-
-<a href="https://gitlab.com/unb-esw/fga-pi2/semestre-2025-1/avalia-o-de-corros-o/docs/-/tree/main/docs/software?ref_type=heads">
-  <div class="repo-border">
-	<img class="photoRepo" src="assets/icons/software_documentos.png" alt="Software">
-  </div>
-	<h4 class="legenda">Software</h4>
-	<h6 class=legenda>Documentos</h6>
-</a>
-
-<a href="https://gitlab.com/unb-esw/fga-pi2/semestre-2025-1/avalia-o-de-corros-o/docs/-/tree/main/docs/energia?ref_type=heads">
-  <div class="repo-border">
-	<img class="photoRepo" src="assets/icons/energia_documentos.png" alt="Eletrônica e Energia">
-  </div>
-	<h4 class="legenda">Eletrônica/Energia</h4>
-	<h6 class=legenda>Documentos</h6>
-</a>
-
-<a href="https://gitlab.com/unb-esw/fga-pi2/semestre-2025-1/avalia-o-de-corros-o/docs/-/tree/main/docs/estrutura?ref_type=heads">
-  <div class="repo-border">
-	<img class="photoRepo" src="assets/icons/estrutura_documentos.png" alt="Estruturas">
-  </div>
-	<h4 class="legenda">Estruturas</h4>
-	<h6 class=legenda>Documentos e modelos</h6>
-</a>
-
-</div>
-</div> -->
 
 <div>
 <h1 style="font-weight: bold; text-align: center"> Equipe </h1>
