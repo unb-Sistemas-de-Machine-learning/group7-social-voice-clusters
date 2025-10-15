@@ -13,7 +13,7 @@ No contexto do Vozes em Rede, o Fishbone foi empregado para mapear as causas que
 - A análise evidenciou a necessidade de mecanismos automáticos de categorização e clusterização para apoiar a gestão pública.
 
 <div style="text-align: center;">
-	<img src="../assets/diagrams/fishbone.png" alt="Diagrama de Causa e Efeito - Fishbone" style="width: 100%;" />
+	<img src="../../assets/diagrams/fishbone.png" alt="Diagrama de Causa e Efeito - Fishbone" style="width: 100%;" />
 	<p style="font-size: 0.95em; color: #555; margin-top: 0.5em;"><em>Figura 1: Diagrama de Causa e Efeito (Fishbone)</em></p>
 </div>
 
@@ -31,7 +31,7 @@ No Vozes em Rede, o Idea Canva foi utilizado para mapear as principais funcional
 - Dificuldade central: compreender, organizar e extrair valor das manifestações devido ao volume, complexidade e falta de categorização eficiente.
 
 <div style="text-align: center;">
-	<img src="../assets/diagrams/idea_canva.png" alt="Idea Canva" style="width: 100%;" />
+	<img src="../../assets/diagrams/idea_canva.png" alt="Idea Canva" style="width: 100%;" />
 	<p style="font-size: 0.95em; color: #555; margin-top: 0.5em;"><em>Figura 2: Idea Canva com funcionalidades e desafios mapeados para o Vozes em Rede.</em></p>
 </div>
 
@@ -49,7 +49,7 @@ No Vozes em Rede, a ferramenta foi usada para filtrar e priorizar ideias levanta
 - Algumas ideias, como histórico de manifestações e relatórios exportáveis, foram consideradas menos prioritárias.
 
 <div style="text-align: center;">
-	<img src="../assets/diagrams/idea_filter.png" alt="Idea Filter Canva" style="width: 100%;" />
+	<img src="../../assets/diagrams/idea_filter.png" alt="Idea Filter Canva" style="width: 100%;" />
 	<p style="font-size: 0.95em; color: #555; margin-top: 0.5em;"><em>Figura 3: Idea Filter Canva priorizando funcionalidades para o projeto.</em></p>
 </div>
 
@@ -66,7 +66,7 @@ No Vozes em Rede, a ferramenta foi utilizada para organizar sugestões de featur
 - Integração com APIs públicas, explicabilidade do modelo e exportação de relatórios são pontos de atenção para o futuro.
 
 <div style="text-align: center;">
-	<img src="../assets/diagrams/parking_lot.png" alt="Parking Lot Idea Canva" style="width: 100%;" />
+	<img src="../../assets/diagrams/parking_lot.png" alt="Parking Lot Idea Canva" style="width: 100%;" />
 	<p style="font-size: 0.95em; color: #555; margin-top: 0.5em;"><em>Figura 4: Parking Lot Idea Canva com backlog de ideias para o Vozes em Rede.</em></p>
 </div>
 

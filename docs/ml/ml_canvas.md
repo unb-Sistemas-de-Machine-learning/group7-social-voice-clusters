@@ -14,6 +14,6 @@ No Vozes em Rede, o ML Canvas foi utilizado para organizar e alinhar as etapas d
 - O uso de texto bruto como entrada e a ausência de necessidade de atualização em tempo real simplificam o pipeline.
 
 <div style="text-align: center;">
-	<img src="../assets/diagrams/ml_canva.png" alt="ML Canva" style="width: 100%;" />
+	<img src="../../assets/diagrams/ml_canva.png" alt="ML Canva" style="width: 100%;" />
 	<p style="font-size: 0.95em; color: #555; margin-top: 0.5em;"><em>Figura 1: ML Canva detalhando o fluxo e decisões do modelo de clusterização do Vozes em Rede.</em></p>
 </div>
