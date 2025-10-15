@@ -7,3 +7,11 @@ O processo é realizado de forma contínua e automatizada, com scripts Python (u
 O armazenamento dos dados é feito em um banco de dados NoSQL, especificamente o **MongoDB**. Essa escolha se deve à flexibilidade do MongoDB para lidar com dados semi-estruturados (textos e metadados variados), além de sua escalabilidade e facilidade de integração com pipelines de processamento em Python. Cada documento armazenado contém o texto da manifestação, informações sobre a fonte, data de coleta e eventuais metadados úteis para análises futuras.
 
 Essa arquitetura permite que a coleta seja facilmente expandida para novas fontes e que o armazenamento acompanhe o crescimento do volume de dados, atendendo aos requisitos de automação, flexibilidade e robustez necessários para o projeto.
+
+### Fontes de Dados para Web Scraping
+
+Para a nossa estratégia de web scraping, focaremos nas seguintes fontes:
+
+- **Reclame Aqui**: Uma fonte rica em textos de reclamações que, apesar de focar no setor privado, possui uma estrutura e um vocabulário semelhantes às manifestações de ouvidoria.
+- **Fóruns e Comunidades Online**: Plataformas onde cidadãos discutem problemas urbanos e serviços públicos.
+- **Canais Governamentais em Redes Sociais**: Comentários em postagens de órgãos públicos em plataformas como o Instagram e o Twitter (X).
