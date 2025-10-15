@@ -5,7 +5,7 @@
 |                       Membro                    | Matrícula |
 | :--------------------------------------------- | :-------: |
 | [João Victor Cruz](https://github.com/DonMtys)  | [PREENCHER MATRÍCULA] |
-| [Miguel Arthur](https://github.com/zlimaz)  | [PREENCHER MATRÍCULA] |
+| [Miguel Arthur](https://github.com/zlimaz)  | 211062320 |
 | [Rafael Bosi](https://github.com/StrangeUnit28) | 211029559 |
 
 ## Site
