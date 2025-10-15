@@ -1,17 +1,16 @@
-> **Objetivo:** Descrever as técnicas de feature engineering utilizadas.
-
 # Feature Engineering
 
-<!-- Listar e descrever técnicas de feature engineering aplicadas. -->
-### **Pré-processamento e Tratamento de Dados**
+O processo de feature engineering é fundamental para garantir que o modelo de clusterização trabalhe com dados limpos, relevantes e representativos. A seguir, detalhamos como cada etapa é tratada no projeto.
 
-* **Missing values:** As entradas com valores nulos serão descartadas durante a coleta.
-* **Outliers:** O tratamento de outliers será feito na etapa de pré-processamento, removendo textos com tamanhos fora do padrão ou que contenham caracteres incomuns.
-* **Enriquecimento dos dados:** Não foi realizado enriquecimento externo. A engenharia de features se concentra em processar o próprio texto para extrair informações relevantes para o modelo, como a tokenização e a lematização.
-* **Excluir variáveis inúteis:** O foco do nosso projeto é em dados textuais. Variáveis irrelevantes, como metadados de coleta, são descartadas antes da etapa de modelagem para otimizar o processamento.
-* **Normalização e padronização:** Realizamos a normalização textual no pré-processamento, convertendo o texto para minúsculas e removendo pontuações e *stop words*.
-* **One Hot Encoding:** Não utilizamos One Hot Encoding. A representação numérica dos textos é feita através de **embeddings de texto**, utilizando um modelo de linguagem pré-treinado em português (**BERTimbau**), que captura o significado semântico das palavras e frases.
+## Pré-processamento e Tratamento de Dados
 
-### **Data Augmentation**
+- **Missing values:** Durante a coleta, entradas com valores nulos ou vazios são automaticamente descartadas. Isso evita que textos incompletos ou inválidos prejudiquem a qualidade do modelo.
+- **Outliers:** Textos considerados outliers (muito curtos, excessivamente longos ou com caracteres incomuns) são removidos na etapa de pré-processamento. Isso garante que apenas manifestações genuínas e informativas sejam analisadas.
+- **Enriquecimento dos dados:** Não realizamos enriquecimento externo (ex: cruzamento com outras bases). O foco está em extrair o máximo de informação do próprio texto, aplicando técnicas como tokenização, lematização e remoção de stopwords para preparar o dado para os embeddings.
+- **Excluir variáveis inúteis:** Apenas o texto principal e metadados essenciais (data, fonte) são mantidos. Informações irrelevantes ou redundantes são descartadas antes da modelagem, otimizando o processamento e a memória.
+- **Normalização e padronização:** Todo texto é convertido para minúsculas, pontuações e stopwords são removidas, e caracteres especiais são tratados. Isso padroniza a entrada e facilita a comparação semântica entre manifestações.
+- **One Hot Encoding:** Não utilizamos One Hot Encoding, pois trabalhamos com dados textuais. A representação numérica dos textos é feita por meio de **embeddings de texto** (ex: BERTimbau), que capturam o significado semântico das palavras e frases, sendo mais adequados para clusterização.
 
-Não foi aplicada *data augmentation* para os dados textuais. Acreditamos que a riqueza e a variedade natural da linguagem humana nos textos coletados já oferecem a diversidade necessária para que o modelo aprenda a identificar padrões de forma robusta.
+## Data Augmentation
+
+Não aplicamos técnicas de *data augmentation* para textos, pois a diversidade natural das manifestações coletadas já proporciona variação suficiente para o aprendizado do modelo. Caso o volume de dados se mostre insuficiente, poderemos reavaliar essa decisão em etapas futuras.

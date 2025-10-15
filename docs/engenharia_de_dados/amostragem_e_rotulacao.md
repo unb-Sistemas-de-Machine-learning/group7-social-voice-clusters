@@ -1,16 +1,13 @@
-> **Objetivo:** Descrever os processos de amostragem e rotulação de dados.
-
 # Amostragem e Rotulação
 
-<!-- Detalhar processos de amostragem e rotulação de dados. -->
-### **Amostragem**
+## Amostragem
 
-Não foi aplicada uma técnica de amostragem tradicional. Devido ao baixo volume de dados acessíveis nas fontes alternativas, a estratégia adotada é a de **amostragem por conveniência**. Coletamos todos os dados disponíveis nas fontes para garantir um volume significativo o suficiente para o treinamento do modelo de clusterização.
+Devido à limitação de acesso a grandes bases oficiais, não foi possível aplicar técnicas tradicionais de amostragem probabilística. Adotamos a **amostragem por conveniência**, coletando todos os dados disponíveis nas fontes acessíveis (sites de notícias, redes sociais, fóruns). Essa abordagem visa maximizar o volume de dados para garantir que o modelo de clusterização tenha material suficiente para identificar padrões relevantes, mesmo que a representatividade estatística não seja garantida.
 
-### **Rotulação**
+## Rotulação
 
-Não foi necessário rotular os dados. O problema de IA que estamos resolvendo é a **clusterização de textos**, que é uma técnica de aprendizado de máquina não-supervisionada. Isso significa que o próprio algoritmo, ao encontrar semelhanças entre os textos, irá agrupar as manifestações em "tópicos" que ele mesmo descobre.
+Não foi necessário realizar rotulação manual dos dados, pois o problema abordado é de **clusterização de textos**, uma tarefa de aprendizado de máquina não-supervisionada. O próprio algoritmo (como K-Means ou DBSCAN) é responsável por identificar grupos de manifestações semelhantes, sem a necessidade de rótulos prévios. Isso simplifica o pipeline e reduz o esforço de preparação dos dados.
 
-### **Balanceamento de Classes**
+## Balanceamento de Classes
 
-O projeto não lida com balanceamento de classes. Como o modelo é de aprendizado não-supervisionado e não utiliza rótulos pré-definidos, o conceito de balanceamento não se aplica.
+O conceito de balanceamento de classes não se aplica neste projeto, já que não há classes ou rótulos definidos previamente. O objetivo é justamente descobrir agrupamentos naturais nos dados, sem impor categorias artificiais. Caso, após a clusterização, seja identificada uma grande disparidade no tamanho dos clusters, isso será analisado como um resultado do próprio fenômeno social e não como um problema de modelagem.
