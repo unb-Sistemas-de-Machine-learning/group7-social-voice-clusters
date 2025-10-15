@@ -54,7 +54,7 @@ Este documento detalha os critérios de aceitação para cada história de usuá
 | US04 | Visualização do grau de pertencimento a múltiplos temas | Should     |
 | US05 | Análise de sentimento                                   | Should     |
 | US06 | Dashboard interativo de clusters                        | Must       |
-| US07 | Geração de relatórios customizáveis                     | Would      |
-| US08 | Exportação de dados e relatórios                        | Would      |
+| US07 | Geração de relatórios customizáveis                     | Could      |
+| US08 | Exportação de dados e relatórios                        | Could      |
 | US09 | Acesso multiplataforma                                  | Could      |
 | US10 | Interface intuitiva e fácil de usar                     | Must       |
