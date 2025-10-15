@@ -66,7 +66,7 @@ nav:
   - Sobre: index.md
   - Produto:
     - Visão do Produto: produto/visao_do_produto.md
-    - Mapeamento de Dados: produto/mapeamento_de_dados.md
+    #- Mapeamento de Dados: produto/mapeamento_de_dados.md
     - Requisitos do Produto: produto/requisitos_do_produto.md
   - Machine Learning:
     - Requisitos de ML: ml/requisitos_de_ml.md
