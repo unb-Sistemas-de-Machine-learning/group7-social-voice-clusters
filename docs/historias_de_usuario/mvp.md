@@ -24,6 +24,18 @@ O MVP do projeto Vozes em Rede contempla a entrega das funcionalidades essenciai
 - US08: Exportação de dados e relatórios
 - US09: Acesso multiplataforma
 
+## Entregas técnicas esperadas no MVP
+
+Além das histórias de usuário, o MVP deve incluir as seguintes entregas técnicas descritas na arquitetura:
+
+- Endpoint de ingestão `POST /ingest` na API (recebe payloads do scraper e persiste no MongoDB).
+- Serviço de armazenamento MongoDB com coleções `raw_manifestacoes` e `processed_manifestacoes`.
+- Serviço/worker de pré-processamento (script que normaliza e marca `status: processed`).
+- Integração com Ollama para geração de embeddings (endpoint local do Ollama configurado).
+- Script de treinamento `treinar.py` e o artefato treinado `models/modelo_cluster.joblib`.
+- Endpoint `POST /clusterizar` para obter cluster a partir de texto/embedding.
+- Dashboard básico ou rota de consulta para validar visualmente os clusters.
+
 ## Incrementos Futuramente Planejados
 
 Funcionalidades classificadas como Could e demais melhorias identificadas durante o desenvolvimento poderão ser implementadas após a entrega do MVP, conforme disponibilidade de tempo e recursos.

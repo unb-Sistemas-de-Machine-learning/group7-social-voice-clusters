@@ -84,8 +84,9 @@ O diagrama abaixo resume do scrapping ao consumo pela aplicação:
 
 ```mermaid
   flowchart TD
-    A["Scraper"] --> B("MongoDB: raw_manifestacoes")
-    B --> C("Pre-processador (script)")
+        A["Scraper"] --> X["API /ingest"]
+        X --> B("MongoDB: raw_manifestacoes")
+        B --> C("Pre-processador (script)")
     C --> D("MongoDB: processed_manifestacoes")
     D --> E["Ollama (embeddings)"]
     E --> F("embeddings armazenados")
