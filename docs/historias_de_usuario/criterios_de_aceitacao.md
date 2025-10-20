@@ -2,7 +2,7 @@
 
 Este documento detalha os critérios de aceitação para cada história de usuário do projeto Vozes em Rede, além de apresentar a priorização das funcionalidades utilizando a técnica MoSCoW. Os critérios servem como referência para validação e acompanhamento do desenvolvimento do sistema.
 
-# Critérios de Aceitação
+## Critérios de Aceitação
 
 ### US01
 - O sistema coleta manifestações de pelo menos duas fontes distintas.
@@ -44,7 +44,7 @@ Este documento detalha os critérios de aceitação para cada história de usuá
 - O sistema possui interface intuitiva, com navegação clara.
 - O usuário consegue realizar análises sem treinamento avançado.
 
-# Priorização (MoSCoW)
+## Priorização (MoSCoW)
 
 | US   | Descrição Resumida                                      | Prioridade |
 |------|---------------------------------------------------------|------------|

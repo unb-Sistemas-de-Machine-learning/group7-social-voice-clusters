@@ -28,7 +28,7 @@ O MVP do projeto Vozes em Rede contempla a entrega das funcionalidades essenciai
 
 Funcionalidades classificadas como Could e demais melhorias identificadas durante o desenvolvimento poderão ser implementadas após a entrega do MVP, conforme disponibilidade de tempo e recursos.
 
-# Cronograma de Entregas
+## Cronograma de Entregas
 
 **Período Total:** 18/08/2025 a 03/12/2025 (16 semanas)
 

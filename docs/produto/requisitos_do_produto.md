@@ -1,8 +1,8 @@
-# Introdução
+# Requisitos do Produto
+
+## Introdução
 
 Este documento apresenta os requisitos funcionais e não funcionais do projeto Vozes em Rede, detalhando as capacidades essenciais e as restrições técnicas que orientam o desenvolvimento do sistema. Os requisitos foram definidos com base na visão do produto e nas necessidades identificadas para apoiar gestores públicos na análise de manifestações cidadãs por meio de clusterização e análise automatizada de dados.
-
-# Requisitos do Produto
 
 ## Requisitos Funcionais
 
