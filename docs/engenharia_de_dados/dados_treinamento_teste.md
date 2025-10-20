@@ -2,7 +2,13 @@
 
 Para garantir a avaliação adequada do modelo de clusterização, o conjunto de dados coletado será dividido em dois subconjuntos principais:
 
-- **Conjunto de Treinamento:** Utilizado para ajustar e treinar o modelo de clusterização (como K-Means ou DBSCAN). O modelo aprende a identificar padrões e agrupar manifestações semelhantes com base nesse conjunto.
-- **Conjunto de Teste:** Reservado para simular a chegada de novas manifestações e validar a capacidade do modelo de atribuir corretamente cada texto ao cluster mais apropriado. Essa validação é fundamental para medir a robustez e a generalização do modelo.
+- Holdout temporal / simulação de streaming:como os dados terão carimbo temporal, reservaremos ~10–20% (ou um período delimitado) como conjunto de teste para simular novos dados em produção.
 
-A divisão dos dados será feita de forma estratificada, sempre que possível, para garantir que a diversidade temática presente no conjunto total seja refletida em ambos os subconjuntos. Como o problema é não-supervisionado, a avaliação será feita por meio de métricas como F1-score, acurácia de clusterização e análise qualitativa dos agrupamentos.
+- Amostra rotulada pequena: criaremos um conjunto rotulado de 80–200 exemplos (dependendo do total disponível) para validação extrínseca — esse conjunto será suficiente para NMI/ARI e análises qualitativas.
+
+## Avaliação e métricas práticas:
+
+- Métricas intrínsecas: Silhouette score e Davies-Bouldin (simples e informativas). Como a base é pequena, interpretar essas métricas junto com revisão humana.
+- Métricas extrínsecas (com small labeled set): NMI e ARI para medir concordância entre clusters e rótulos humanos.
+- Análise qualitativa: revisaremos manualmente o conteúdo de 5–10 exemplos por cluster para validar interpretabilidade.
+

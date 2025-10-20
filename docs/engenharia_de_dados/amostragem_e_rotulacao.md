@@ -2,7 +2,9 @@
 
 ## Amostragem
 
-Devido à limitação de acesso a grandes bases oficiais, não foi possível aplicar técnicas tradicionais de amostragem probabilística. Adotamos a **amostragem por conveniência**, coletando todos os dados disponíveis nas fontes acessíveis (sites de notícias, redes sociais, fóruns). Essa abordagem visa maximizar o volume de dados para garantir que o modelo de clusterização tenha material suficiente para identificar padrões relevantes, mesmo que a representatividade estatística não seja garantida.
+Devido ao escopo do projeto (conjunto enxuto de 100–300 manifestações), adotamos a **amostragem por conveniência** com enfoque em curadoria e diversidade temática.
+
+Essas medidas maximizam o valor informativo mesmo com poucos exemplos e permitem uma avaliação significativa da interpretabilidade dos clusters.
 
 ## Rotulação
 
